@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>RFC7807ProblemDetails</PackageId>
+    <Description>RFC7807ProblemDetails is a .NET library for standardized error handling in web APIs, adhering to RFC 7807. It supports internationalization, custom additional fields, and integrates with .NET's logging. Ideal for enhancing API error responses.</Description>
+    <Title>RFC7807 Problem Details Middleware</Title>
+    <Product>RFC7807ProblemDetails</Product>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/LuigimonSoft/RFC7807ProblemDetails</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/LuigimonSoft/RFC7807ProblemDetails</RepositoryUrl>
+    <PackageTags>RFC7870, ProblemDetails, Problem details, errorhandler. Middleware</PackageTags>
+    <AssemblyName>RFC7807ProblemDetails</AssemblyName>
+    <PackageIcon>RFC7807ProblemDetails.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Localization\Services\" />
+    <Folder Include="Localization\Resources\" />
+    <Folder Include="Logging\Extensions\" />
+    <Folder Include="Logging\Interfaces\" />
+    <Folder Include="Models\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\RFC7807ProblemDetails.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
