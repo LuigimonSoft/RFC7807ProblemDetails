@@ -22,7 +22,6 @@
     <Folder Include="Localization\Resources\" />
     <Folder Include="Logging\Extensions\" />
     <Folder Include="Logging\Interfaces\" />
-    <Folder Include="Models\" />
     <Folder Include="Middleware\" />
   </ItemGroup>
 
