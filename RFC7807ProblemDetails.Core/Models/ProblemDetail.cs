@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RFC7807ProblemDetails.Core.Models
+﻿namespace RFC7807ProblemDetails.Core.Models
 {
     public class ProblemDetail
     {
@@ -14,6 +8,7 @@ namespace RFC7807ProblemDetails.Core.Models
         public string Detail { get; set; }
         public string Instance { get; set; }
         public string ErrorCode { get; set; }
+        public string? Trace { get; set; }
         public List<AdditionalInfo> AdditionalProperties { get; set; } = new List<AdditionalInfo>();
 
     }

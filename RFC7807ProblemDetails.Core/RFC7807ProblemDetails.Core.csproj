@@ -22,7 +22,6 @@
     <Folder Include="Localization\Resources\" />
     <Folder Include="Logging\Extensions\" />
     <Folder Include="Logging\Interfaces\" />
-    <Folder Include="Middleware\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +33,11 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
